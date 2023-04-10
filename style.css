@@ -1,0 +1,203 @@
+.header ul li a{
+    margin-left: 1rem;
+    text-decoration: none;
+    color: gray;
+}
+
+.headerMain img{
+    width: 150px;
+}
+.dropbtn{
+    text-decoration: none;
+    color: black;
+    border: none;
+}
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    position: absolute;
+    z-index: 2;
+  
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown a:hover{
+    color: orangered;
+
+}
+
+.dropdown a{
+    color: black;
+    text-decoration: none;
+}
+.dropdown a h6{
+    font-size: 14px;
+}
+.dropdown a h6:hover{
+    color: orangered;
+}
+
+.headerbottom .dropbtn {
+    margin-right: 1rem;
+    background-color: white;
+}
+
+
+.yuvarlak{
+    width:80px;
+    height: 80px;
+    margin-right: 2rem;
+    border-radius: 70px;
+}
+img{
+    max-width: 100%;
+}
+.alan2{
+   padding: 3rem;
+}
+.alan3 img{
+    border-radius: 10px;
+}
+button{
+    padding:4px;
+    
+}
+.kutu{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin: 10px;
+    
+}
+.alan4 .container1{
+    padding: 2rem;
+    background-color: bisque;
+}
+.alan6 .right,.left{
+    width: 50%;
+}
+
+.alan6 ul li a {
+    color: black;
+    text-decoration: none;
+}
+.alan6 ul li a:hover{
+    text-decoration: underline;
+}
+.kare{
+    width: 200px;
+    height: 300px;
+    background-color: white;
+}
+
+
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+.afterfooter ul li a{
+    color: white;
+    text-decoration: none;
+}
+.denembtn{
+    background-color: black;
+    border: none;
+}
+
+
+.denembtn:hover{
+    background-color: rgb(255, 94, 0);
+}
+.alana ul li a{
+    text-decoration: none;
+    color: black;
+}
+.alana ul li a:hover{
+    background-color: rgba(215, 208, 208, 0.973);
+}
+.alana ul li{
+    margin-top: 1rem;
+}
+.siparislerim{
+    display: flex;
+    border: 1px solid gray;
+}
+.hspbtn a{
+    text-decoration: none;
+    color: black;
+}
+.hspbtn{
+    border: none;
+    margin-right:3rem ;
+}
+.hspbtn a:hover{
+    color: rgb(255, 111, 0);
+    border-radius: 5px;
+    
+}
+.fix{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: black;
+}
+.fix button{
+    border: solid gray 2px; 
+}
+.kutuyazi{
+    font-size: medium;
+}
+#adet{
+    width: 30px;
+}
+.saga{
+    margin-left: 110px;
+}
+.urunyoktur{
+    display: none;
+}
+.birimfgizli{
+    display: none;
+}
+.urunhatirlatma{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

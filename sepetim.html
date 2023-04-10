@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <ul class="d-flex list-unstyled justify-content-end ">
+                <li><a href="">Indirim Kuponlarim</a></li>
+                <li><a href="">Trendyol`da Satis Yap</a></li>
+                <li><a href="">Yardim & Destek</a></li>
+            </ul>
+        </div>
+            <nav>
+            <div class="headerMain">
+              <div class="container d-flex">
+                   <img  src="img/logo.jpg" alt="">
+                   <input type="text" placeholder="Aradiginiz urun, kategori veya markayi yaziniz" class="w-50 m-3">
+                   <div class="dropdown">
+                    <i class="bi bi-person"></i>
+                    <a href="hesap.html" class="dropbtn">Hesabim</a>
+                    <div class="dropdown-content">
+                      <h6 class="text-info">kubrasahin2812@gmail.com</h6>
+                      <a href="">Sepetim</a>
+                      <a href="">Kuponlarim</a>
+                      <a href="">Cikis yap</a>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <i class="bi bi-heart"></i>
+                    <a href="" class="dropbtn">Favorilerim</a>
+                    <div class="dropdown-content">
+                      <a href="">Link 1</a>
+                      <a href="">Link 2</a>
+                      <a href="">Link 3</a>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <i class="bi bi-cart2"></i>
+                    <a href="" class="dropbtn">Sepetim</a>
+                    <div class="dropdown-content">
+                      <a href="">Link 1</a>
+                      <a href="">Link 2</a>
+                      <a href="">Link 3</a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </nav>
+            <div class="headerbottom">
+              <div class="dropdown">
+                <button class="dropbtn">KADIN</button>
+                <button class="dropbtn">ERKEK</button>
+                <button class="dropbtn">ANNE&COCUK</button>
+                <button class="dropbtn">EV&MOBILYA</button>
+                <button class="dropbtn">SUPERMARKET</button>
+                <button class="dropbtn">KOZMETIK</button>
+                <button class="dropbtn">AYAKKABI&CANTA</button>
+                <button class="dropbtn">SAAT&AKSESUAR</button>
+                <button class="dropbtn">ELEKTRONIK</button>
+                <button class="dropbtn">SPOR&OUTDOOR</button>
+                <div class="dropdown-content p-2">
+                  <div class="row">
+                    <div class="col-3">
+                      <a href=""><h6>Ayakkabi</h6></a>
+                      <a href="">Sneaker</a>
+                      <a href="">Sneaker</a>
+                      <a href="">Sneaker</a>
+                      <a href="">Sneaker</a>
+                      <a href="">Sneaker</a>
+                    </div>
+                    <div class="col-3">
+                      <a href=""><h6>Ic Giyim</h6></a>
+                      <a href="">Pijama takimi</a>
+                      <a href="">Pijama takimi</a>
+                      <a href="">Pijama takimi</a>
+                      <a href="">Pijama takimi</a>
+                      <a href="">Pijama takimi</a>
+                    </div>
+                    <div class="col-3">
+                      <a href=""><h6>Kozmetik</h6></a>
+                      <a href="">Parfum</a>
+                      <a href="">Parfum</a>
+                      <a href="">Parfum</a>
+                      <a href="">Parfum</a>
+                      <a href="">Parfum</a>
+                    </div>
+                    <div class="col-3">
+                      <a href=""><img width="2000" src="img/kapak.webp" alt=""></a>
+                      <a href=""><img width="2000" src="img/kapak.webp" alt=""></a>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    </div>
+    <hr>
+    <section class="alanc">
+        <div class="container">
+            <div class="row">
+                <div class="col-9">
+                  <h4>Sepetim (1 Urun)</h4>
+                  <div class="card mt-5">
+                    <div class="card-header d-flex">
+                      <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+                      <p class="ms-2">Satici : </p>
+                    </div>
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0 d-flex">
+                        <input class="form-check-input mt-0" type="checkbox" value="" aria-label="Checkbox for following text input">
+                        <a href="" class="text-decoration-none text-black">
+                          <img class="ms-2" src="img/gozluk.webp" width="50" alt="">
+                          <p class="kutuyazi">Atlas Accessory Kadin Mila Beyaz Gunes Gozlugu</p>
+                          <i class="bi bi-truck kutuyazi">En gec yarin kargoda!</i>
+                        </a>
+                        <div class="saga d-flex">
+                          <div class="arttirma">
+                            <button onclick="azalt()">-</button>
+                            <input id="adet" type="text" pattern="[0-9]*" value="1">
+                            <button onclick="arttir()">+</button>
+                          </div>
+                          <p class="birimfgizli">40</p>
+                          <p class="ms-5" id="birimfiyat">40 TL</p>
+                          <button class= "ms-5 h-25 copkutusu"><i class="bi bi-trash-fill"></i></button>
+                        </div>
+                      </blockquote>
+                    </div>
+                  </div>
+                  <div class="btn-group mt-4" role="group" aria-label="Basic example">
+                    <button type="button" class="btn">Onceden Eklediklerim</button>
+                    <button type="button" class="btn">Onerilen Urunler</button>
+                  </div>
+                  <hr>
+                  <section class="oncedenEklediklerim">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-6">
+                          <div class="urunhatirlatma d-flex">
+                          <div class="sag d-flex">
+                            <img src="img/kemer.webp" width="50" alt="">
+                            <div class="d-inline-block ms-1">
+                            <p>Kemerim Kadin Gold
+                              Tokali Kemer
+                            </p>
+                            <p>Beden :S</p>
+                            <i class="bi bi-truck kutuyazi">Hizli Teslimat</i>
+                          </div>
+                          </div>
+                          <div class="sol ms-5">
+                            <button type="button" class="btn-close" onclick="closeWin()" aria-label="Close"></button>
+                            <p>33,86 TL</p>
+                            <button>Sepete Ekle</button>
+                          </div>
+                        </div>
+                        <div class="urunhatirlatma d-flex mt-4">
+                          <div class="sag d-flex">
+                            <img src="img/kemer.webp" width="50" alt="">
+                            <div class="d-inline-block ms-1">
+                            <p>Kemerim Kadin Gold
+                              Tokali Kemer
+                            </p>
+                            <p>Beden :S</p>
+                            <i class="bi bi-truck kutuyazi">Hizli Teslimat</i>
+                          </div>
+                          </div>
+                          <div class="sol ms-5">
+                            <button type="button" class="btn-close" aria-label="Close"></button>
+                            <p>33,86 TL</p>
+                            <button>Sepete Ekle</button>
+                          </div>
+                        </div>
+                      </div>
+                        <div class="col-6">
+                          <div class="urunhatirlatma d-flex">
+                          <div class="sag d-flex">
+                            <img src="img/kemer.webp" width="50" alt="">
+                            <div class="d-inline-block ms-1">
+                            <p>Kemerim Kadin Gold
+                              Tokali Kemer
+                            </p>
+                            <p>Beden :S</p>
+                            <i class="bi bi-truck kutuyazi">Hizli Teslimat</i>
+                          </div>
+                          </div>
+                          <div class="sol ms-5">
+                            <button type="button" class="btn-close" aria-label="Close"></button>
+                            <p>33,86 TL</p>
+                            <button>Sepete Ekle</button>
+                          </div>
+                        </div>
+                        <div class="urunhatirlatma d-flex mt-4">
+                          <div class="sag d-flex">
+                            <img src="img/kemer.webp" width="50" alt="">
+                            <div class="d-inline-block ms-1">
+                            <p>Kemerim Kadin Gold
+                              Tokali Kemer
+                            </p>
+                            <p>Beden :S</p>
+                            <i class="bi bi-truck kutuyazi">Hizli Teslimat</i>
+                          </div>
+                          </div>
+                          <div class="sol ms-5">
+                            <button type="button" class="btn-close" aria-label="Close"></button>
+                            <p>33,86 TL</p>
+                            <button>Sepete Ekle</button>
+                          </div>
+                        </div>
+                      </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+                <div class="col-3">
+                  <button class="w-100 sepetionayla border-0 p-2" style="color: white; background-color: rgb(238, 116, 50);">Sepeti Onayla ></button>
+                  <div class="card mt-3">
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-8">
+                          <p class="kutuyazi">Urunlerin Toplami</p>
+                          <p class="kutuyazi">Kargo Toplam</p>
+                        </div>                       
+                        <div class="col-4 fiyat">
+                          <p class="show">35</p>
+                          <p class="kargof">20</p>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                    <button onclick="fiyatDegistir">topla</button>
+                    <p class="d-flex justify-content-end fiyattoplam">0</p>
+                  </div>
+                  <button style="border:solid rgb(204, 198, 198); background-color: white; margin-top: 2rem; width: 260px;"><i class="bi bi-plus-lg" style="color:orange;"></i>INDIRIM KODU GIR</button>
+                  <button class="text-white w-100 mt-4 border-0 p-2" style="background-color: rgb(237, 106, 30);">Sepeti Onayla ></button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="urunyoktur">
+      <div class="dikdortgen" style="border: solid 2px rgb(205, 199, 199); width:80% ; margin-left: 130px;">
+        <div class="container d-flex">
+          <div class="left d-flex" style="height: 100px; align-items: center;">
+            <div class="daire" style="width: 60px; height: 60px; border-radius: 30px; background-color: rgb(239, 189, 115);">
+            <img src="img/turuncu.webp" style="width: 30px; margin-left: 15px; margin-top: 15px;" alt="">
+            </div>
+            <h5>Sepetinde urun bulunmamaktadir.</h5>
+          </div>
+          <div class="right d-flex" style="margin-left: 250px; height: 100px; align-items: center;"">
+            <button style="width: 200px; color: aliceblue; background-color: rgb(231, 103, 17);"">Alisverise Basla ></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+  </section>
+  <hr>
+  <section class="alan6 text-black p-4">
+<div class="container d-flex">
+  <div class="left">
+    <h5>Populer Marka Ve Magazalar</h5>
+    <div class="row mt-4">
+      <div class="col-4 ">
+        <ul class="list-unstyled">
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+        </ul>
+      </div>
+      <div class="col-4">
+        <ul class="list-unstyled">
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+        </ul>
+      </div>
+      <div class="col-4">
+        <ul class="list-unstyled">
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="right">
+    <h5>Populer Sayfalar</h5>
+    <div class="row mt-4">
+      <div class="col-4">
+        <ul class="list-unstyled">
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+        </ul>
+      </div>
+      <div class="col-4">
+        <ul class="list-unstyled">
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+        </ul>
+      </div>
+      <div class="col-4">
+        <ul class="list-unstyled">
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+          <li><a href="">Boyner</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+  </section>
+
+  <footer class="bg-black text-white">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-3">
+          <div class="ust">
+            <a href="">
+              <h4>Trendyol</h4>
+            </a>
+            <ul class="list-unstyled mt-4">
+              <li class="mt-3"><a href="">Biz Kimiz</a></li>
+              <li class="mt-3"><a href="">Kariyer</a></li>
+              <li class="mt-3"><a href="">Iletisim</a></li>
+              <li class="mt-3"><a href="">Trendyol`da Satis Yap</a></li>
+              <li class="mt-3"><a href="">Kurumsal Hediye Ceki</a></li>
+            </ul>
+          </div>
+          <div class="alt">
+            <ul class="list-unstyled">
+              <li>
+                <p>Guvenli Alisveris</p>
+              </li>
+              <li>
+                <div class="payment d-flex">
+                  <div><img src="img/indir.png" alt=""></div>
+                  <div><img src="img/indir.png" alt=""></div>
+                  <div><img src="img/indir.png" alt=""></div>
+                  <div><img src="img/indir.png" alt=""></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="ust">
+            <ul class="list-unstyled">
+              <li class="mt-1">
+                <a href="">
+                  <h4>About us</h4>
+                </a>
+              </li>
+              <li class="mt-4">
+                <a href="">Who we are</a>
+              </li>
+              <li class="mt-4">
+                <a href="">Careers</a>
+              </li>
+              <li class="mt-4">
+                <a href="">Contact us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="alt mt-5">
+            <ul class="list-unstyled">
+              <li>
+                <p>Mobil uygulamalar</p>
+              </li>
+              <li>
+                <div class="indir">
+                  <div><img class="w-50" src="img/store.png" alt=""></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="ust">
+            <a href="">
+              <h4>Kampanyalar</h4>
+            </a>
+            <ul class="list-unstyled mt-4">
+              <li class="mt-4"><a href="">Aktif Kampanyalar</a></li>
+              <li class="mt-4"><a href="">Elite Uyelik</a></li>
+              <li class="mt-4"><a href="">Hediye Fikirleri</a></li>
+              <li class="mt-4"><a href="">Trendyol Firsatlari</a></li>
+            </ul>
+          </div>
+          <div class="alt mt-5">
+            <ul class="list-unstyled">
+              <li>
+                <p>Sosyal Medya</p>
+              </li>
+              <li>
+                <div class="sosyalmedya d-flex">
+                  <a href=""><img src="img/fcbkk.png" alt=""></a>
+                  <a href=""><img src="img/insta.png" alt=""></a>
+                  <a href=""><img src="img/twtr.png" alt=""></a>
+                  <a href=""><img src="img/yutup.png" alt=""></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="ust">
+            <a href="">
+              <h4>Yardim</h4>
+            </a>
+            <ul class="list-unstyled mt-4">
+              <li class="mt-4">
+                <a href="">Sikca Sorulan Sorular</a>
+              </li>
+              <li class="mt-4">
+                <a href="">Canli Yardim</a>
+              </li>
+              <li class="mt-4"><a href="">Nasil Iade Edebilirim</a></li>
+              <li class="mt-4"><a href="">Islem Rehberi</a></li>
+            </ul>
+          </div>
+          <div class="alt mt-5">
+            <ul class="list-unstyled">
+              <li class="mt-3">
+                <button>Ulke Degistir</button>
+              </li>
+              <li class="mt-3">
+                <div><img class="w-50" src="img/barkod.png" alt=""></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script src="app.js"></script>
+</body>
+</html>
